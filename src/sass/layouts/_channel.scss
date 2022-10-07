@@ -1,0 +1,35 @@
+.channel-wrapper {
+  height: 310px;
+  // border: 1px solid black;
+
+  .channel-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+
+    .channel-name {
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .channel-btn {
+      height: 25px;
+      width: 25px;
+      font-size: 20px;
+      margin-left: 8px;
+    }
+  }
+
+  .channel-form{
+    .channel-name-input {
+      width: 180px;
+      height: 20px;
+    }
+
+    .create-channel-btn {
+      width: 53px;
+      height: 20px;
+    }
+  }
+}

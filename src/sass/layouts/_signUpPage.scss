@@ -1,0 +1,44 @@
+.sign-up-section {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .sign-up-wrapper {
+    border: 3px solid black;
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+    .sign-up-form {
+      width: 200px;
+      height: 190px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+
+        .sing-up-btn {
+          margin-top: 10px;
+          width: 70px;
+          height: 23px;
+          border-radius: 10px;
+        }
+    }
+  }
+
+  .sign-in-portal {
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

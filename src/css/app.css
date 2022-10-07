@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.main-page-wrapper {
+  width: 900px;
+  height: 700px;
+  background-color: black;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.side-bar-wrapper {
+  color: white;
+  border: 2px solid white;
+  height: 697px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(167, 44, 44);
+}
+.side-bar-wrapper .direct-message {
+  border: 1px solid black;
+}
+.side-bar-wrapper .channel {
+  border: 1px solid black;
+}
+.side-bar-wrapper .user-display {
+  border: 1px solid black;
+  height: 55px;
+}
+
+.message-box-wrapper {
+  color: white;
+  height: 697px;
+  width: 650px;
+}
+.message-box-wrapper .message-display {
+  border: 1px solid white;
+  height: 580px;
+  border-radius: 10px;
+}
+.message-box-wrapper .message-display .receiver-email {
+  color: white;
+  border: 1px solid red;
+  height: 40px;
+}
+.message-box-wrapper .message-display .retrieve-message.receiver {
+  text-align: left;
+}
+.message-box-wrapper .message-display .retrieve-message.sender {
+  text-align: right;
+}
+.message-box-wrapper .message-form {
+  border: 1px solid white;
+  height: 118px;
+  border-radius: 10px;
+}
+.message-box-wrapper .message-form .text-area {
+  resize: none;
+}
+
+.search-bar-wrapper .search-toggle {
+  height: 200px;
+  width: 168px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

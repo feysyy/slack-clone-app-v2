@@ -1,0 +1,48 @@
+.message-display-wrapper {
+  .receiver-email {
+    // color: white;
+    // border: 1px solid red;
+    background-color: rgb(167, 44, 44);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    border: 2px solid white;
+    border-left: 2px;
+  }
+
+  .message-display {
+    // border: 1px solid white;
+    height: 580px;
+    // border-radius: 10px;
+    background-color: rgb(241, 232, 232);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 18px;
+  
+  
+      .retrieve-message {
+        
+        &.receiver {
+          text-align: left;
+        }
+        
+        &.sender {
+          text-align: right;
+        }
+      }
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(167, 44, 44);
+  }
+}
+

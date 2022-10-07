@@ -1,0 +1,18 @@
+.search-bar-wrapper {
+
+  .search-input {
+    width: 233px;
+    height: 20px;
+  }
+
+  .search-toggle{
+    width: 245px;
+    height: 210px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+
+// ::-webkit-scrollbar {
+//   width: 1px;
+// }

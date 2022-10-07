@@ -1,0 +1,17 @@
+.user-display-wrapper {
+
+  .user-display {
+    border: 1px solid white;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+  }
+
+  .log-out-btn {
+    width: 70px;
+    height: 23px;
+    margin-top: 3px;
+    margin-left: 2px;
+  }
+}

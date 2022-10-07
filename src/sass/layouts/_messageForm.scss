@@ -1,0 +1,25 @@
+.message-form{
+  // border:  1px solid white;
+  height: 75px;
+  border-radius: 10px;
+  border: 1px solid rgb(196, 170, 170);
+  background-color: rgb(241, 232, 232);
+
+    .text-area{
+      resize: none;
+      width: 590px;
+      height: 60px;
+      border: none;
+      outline: none;
+      margin-left: 4px;
+      margin-top: 4px;
+      background-color: rgb(241, 232, 232);
+      font-size: 18px;
+
+    }
+
+    .send-message-btn {
+      margin-left: 4px;
+      margin-bottom: 20px;
+    }
+}
