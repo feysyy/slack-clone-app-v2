@@ -41,6 +41,7 @@ export default function SignIn() {
           <label>E-mail: </label>
           {/* <br></br> */}
           <input
+            className='input-field'
             type="email"
             name='email'
             required
@@ -50,6 +51,7 @@ export default function SignIn() {
           <label>Password: </label>
           {/* <br></br> */}
           <input 
+            className='input-field'
             type="password"
             name='password'
             required
@@ -60,7 +62,7 @@ export default function SignIn() {
         </form>
       <div className='sign-up-portal'>
         <p>Don't have an account yet?</p>
-        <p><Link to="/sign-up-page">Sign-Up </Link>here</p>
+        <p><Link className='sign-up-link' to="/sign-up-page">Sign-Up </Link>here</p>
       </div>
       </div>
     </section>

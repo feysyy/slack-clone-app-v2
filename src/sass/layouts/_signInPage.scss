@@ -1,11 +1,17 @@
 .sign-in-section {
-  height: 500px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../../assets/message-bg-red.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 
   .sign-in-wrapper {
-    border: 3px solid black;
+    // border: 3px solid black;
+    background-color: rgba(212, 34, 34, 0.6);
     height: 250px;
     width: 400px;
     margin-left: auto;
@@ -13,7 +19,6 @@
     border-radius: 20px;
 
       .sign-in-form {
-        // border: 1px solid black;
         width: 200px;
         height: 140px;
         margin-left: auto;
@@ -22,6 +27,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
+          .input-field {
+            border-radius: 10px;
+            height: 25px;
+            width: 200px;
+          }
 
           .sign-in-btn {
             margin-top: 10px;
@@ -42,5 +52,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+      .sign-up-link {
+        text-decoration: none;
+        color: black;
+      }
   }
 }

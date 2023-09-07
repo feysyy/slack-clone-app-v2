@@ -37,6 +37,7 @@ export default function SignUp() {
           <label>E-mail: </label>
           {/* <br/> */}
           <input
+            className="input-field"
             type="email" 
             name='email'
             required
@@ -46,6 +47,7 @@ export default function SignUp() {
           <label>Password: </label>
           {/* <br></br> */}
           <input
+            className="input-field"
             type="password"
             name="password"
             required
@@ -55,6 +57,7 @@ export default function SignUp() {
           <label>Confirm Password: </label>
           {/* <br/> */}
           <input
+            className="input-field"
             type="password"
             name="confirmPassword"
             required 
@@ -63,7 +66,7 @@ export default function SignUp() {
           <button className="sing-up-btn" type="submit"> Sign-Up</button>
         </form>
         <div className="sign-in-portal">
-        <p>Click here to <Link to="/"> Sign-in</Link> </p>
+        <p>Click here to <Link className="sign-in-link" to="/"> Sign-in</Link> </p>
         </div>
       </div>
     </section>

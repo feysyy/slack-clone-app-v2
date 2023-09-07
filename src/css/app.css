@@ -4,84 +4,261 @@
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
+.sign-up-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/message-bg-red.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.sign-up-section .sign-up-wrapper {
+  background-color: rgba(49, 49, 193, 0.6);
+  height: 300px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+.sign-up-section .sign-up-wrapper .sign-up-form {
+  width: 200px;
+  height: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.sign-up-section .sign-up-wrapper .sign-up-form .input-field {
+  border-radius: 10px;
+  height: 25px;
+  width: 200px;
+}
+.sign-up-section .sign-up-wrapper .sign-up-form .sing-up-btn {
+  margin-top: 10px;
+  width: 70px;
+  height: 23px;
+  border-radius: 10px;
+}
+.sign-up-section .sign-in-portal {
+  width: 400px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-up-section .sign-in-portal .sign-in-link {
+  text-decoration: none;
+  color: black;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+.sign-in-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
-
-::-webkit-scrollbar-thumb {
-  background: #888;
+.sign-in-section .sign-in-wrapper {
+  background-color: rgba(49, 49, 193, 0.6);
+  height: 250px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+.sign-in-section .sign-in-wrapper .sign-in-form {
+  width: 200px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.sign-in-section .sign-in-wrapper .sign-in-form .input-field {
+  border-radius: 10px;
+  height: 25px;
+  width: 200px;
+}
+.sign-in-section .sign-in-wrapper .sign-in-form .sign-in-btn {
+  margin-top: 10px;
+  width: 70px;
+  height: 23px;
+  border-radius: 10px;
+}
+.sign-in-section .sign-up-portal {
+  width: 400px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-in-section .sign-up-portal .sign-up-link {
+  text-decoration: none;
+  color: black;
 }
 
 .main-page-wrapper {
   width: 900px;
   height: 700px;
-  background-color: black;
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 
 .side-bar-wrapper {
-  color: white;
+  font-size: 19px;
   border: 2px solid white;
-  height: 697px;
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-color: rgb(167, 44, 44);
-}
-.side-bar-wrapper .direct-message {
-  border: 1px solid black;
-}
-.side-bar-wrapper .channel {
-  border: 1px solid black;
-}
-.side-bar-wrapper .user-display {
-  border: 1px solid black;
-  height: 55px;
 }
 
 .message-box-wrapper {
-  color: white;
   height: 697px;
   width: 650px;
 }
-.message-box-wrapper .message-display {
-  border: 1px solid white;
-  height: 580px;
-  border-radius: 10px;
-}
-.message-box-wrapper .message-display .receiver-email {
-  color: white;
-  border: 1px solid red;
-  height: 40px;
-}
-.message-box-wrapper .message-display .retrieve-message.receiver {
-  text-align: left;
-}
-.message-box-wrapper .message-display .retrieve-message.sender {
-  text-align: right;
-}
-.message-box-wrapper .message-form {
-  border: 1px solid white;
-  height: 118px;
-  border-radius: 10px;
-}
-.message-box-wrapper .message-form .text-area {
-  resize: none;
-}
 
-.search-bar-wrapper .search-toggle {
-  height: 200px;
-  width: 168px;
+.direct-message-wrapper {
+  height: 300px;
+}
+.direct-message-wrapper .direct-message {
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid white;
+}
+.direct-message-wrapper .direct-message-list {
+  width: 245px;
+  height: 254px;
   overflow-y: scroll;
   overflow-x: hidden;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+.search-bar-wrapper .search-input {
+  width: 233px;
+  height: 20px;
+}
+.search-bar-wrapper .search-toggle {
+  width: 245px;
+  height: 210px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.channel-wrapper {
+  height: 310px;
+}
+.channel-wrapper .channel-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.channel-wrapper .channel-header .channel-name {
+  text-align: center;
+  font-size: 30px;
+}
+.channel-wrapper .channel-header .channel-btn {
+  height: 25px;
+  width: 25px;
+  font-size: 20px;
+  margin-left: 8px;
+}
+.channel-wrapper .channel-form .channel-name-input {
+  width: 180px;
+  height: 20px;
+}
+.channel-wrapper .channel-form .create-channel-btn {
+  width: 53px;
+  height: 20px;
+}
+
+.message-display-wrapper .receiver-email {
+  background-color: rgb(167, 44, 44);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+  border: 2px solid white;
+  border-left: 2px;
+}
+.message-display-wrapper .message-display {
+  height: 580px;
+  background-color: rgb(241, 232, 232);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 18px;
+}
+.message-display-wrapper .message-display .retrieve-message.receiver {
+  text-align: left;
+}
+.message-display-wrapper .message-display .retrieve-message.sender {
+  text-align: right;
+}
+.message-display-wrapper ::-webkit-scrollbar {
+  width: 8px;
+}
+.message-display-wrapper ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.message-display-wrapper ::-webkit-scrollbar-thumb {
+  background: rgb(167, 44, 44);
+}
+
+.message-form {
+  height: 75px;
+  border-radius: 10px;
+  border: 1px solid rgb(196, 170, 170);
+  background-color: rgb(241, 232, 232);
+}
+.message-form .text-area {
+  resize: none;
+  width: 590px;
+  height: 60px;
+  border: none;
+  outline: none;
+  margin-left: 4px;
+  margin-top: 4px;
+  background-color: rgb(241, 232, 232);
+  font-size: 18px;
+}
+.message-form .send-message-btn {
+  margin-left: 4px;
+  margin-bottom: 20px;
+}
+
+.user-display-wrapper .user-display {
+  border: 1px solid white;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+.user-display-wrapper .log-out-btn {
+  width: 70px;
+  height: 23px;
+  margin-top: 3px;
+  margin-left: 2px;
 }
